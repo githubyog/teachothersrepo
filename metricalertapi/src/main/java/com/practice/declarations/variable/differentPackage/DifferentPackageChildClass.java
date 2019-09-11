@@ -9,8 +9,8 @@ public class DifferentPackageChildClass extends ClassVariableDeclaration {
 	/*
 	 * Please note we did not add any new variables to this class
 	 * basically we inherited the class variables
-	 * But we can see the private variable of the parent class is not accessible in this class
-	 * whereas default, protected and public scope variables are accessible.
+	 * But we can see the private and default variable of the parent class is not accessible in this class
+	 * whereas protected and public scope variables are accessible.
 	 */
 	
 	public static void main(String [] args) {
